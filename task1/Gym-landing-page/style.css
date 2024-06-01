@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    
+    background-image: url('pic6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Baloo 2', cursive;
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+
+}
+.left img{
+    width: 90px;
+    filter: invert();
+    position: relative;
+
+}
+.left div {
+    text-align: center;
+    line-height: 4px;
+    font-size: 18px;
+}
+.mid{
+    
+    margin: 20px auto; 
+    display: flex; 
+    justify-content:center;
+    position: sticky;
+    align-items: center;
+    
+    
+}
+.right{
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    /* border: 2px solid yellow; */
+    display: inline-block;
+}
+.btn{
+    margin: 1px 10px;
+    background-color: black;
+    color: white;
+    padding: 7px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Baloo 2', cursive;
+}
+.btn:hover{
+    background-color: rgb(40, 39, 39);
+}
+.navbar{
+    display: inline-block; 
+    
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 21px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+.container{
+    border: 2px solid white;
+    margin: 90px 60px;
+    padding: 70px;
+    width: 33%;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+
